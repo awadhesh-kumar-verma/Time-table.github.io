@@ -1,0 +1,107 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+.div0{
+    display: flex;
+}
+
+.div1{
+    width: 20%;
+    margin: 40px 0px 0px 80px;
+}
+
+.div2{
+    /* width: 80%; */
+    width: 700px;
+    justify-content: center;
+    margin: 40px 0px 40px -80px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 100px;
+}
+
+.div3{
+    display: flex;
+    margin-bottom: -15px;
+}
+
+.div4{
+    margin-left: 80px;
+    width: 140px;
+}
+
+.div5{
+    margin-left: 100px;
+    width: 500px;
+    text-align: center;
+}
+
+.div6{
+    margin-right: 80px;
+    width: 200px;
+    margin-top: 16px;
+}
+
+.line{
+    line-height: 5px;
+}
+
+.table tr td,th{
+    line-height: 5px;
+}
+
+.div17{
+    display: flex;
+    margin-left: 100px;
+    width: 1150px;
+}
+
+table {
+    width: 1000px;
+}
+
+
+.div2{
+    width: 700px;
+    justify-content: center;
+    margin: 40px 0px 40px -80px;
+    text-align: center;
+    margin-left: 60px;
+    padding-right: 800px;
+}
+
+
+@media only screen and (max-width: 1670px){
+    .div2{
+        width: 700px;
+        justify-content: center;
+        margin: 40px 0px 40px -80px;
+        text-align: center;
+        margin-left: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 1600px){
+    .div2{
+        width: 700px;
+        justify-content: center;
+        margin: 40px 0px 40px -80px;
+        text-align: center;
+        margin-right: 0;
+        padding-right: 0;
+    }
+}
+
+
+@media only screen and (max-width: 1000px){
+    .div2{
+        width: 700px;
+        justify-content: center;
+        margin: 40px 0px 40px -80px;
+        text-align: center;
+        margin-left: 250px;
+    }
+}
